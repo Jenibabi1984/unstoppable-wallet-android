@@ -306,6 +306,9 @@ dependencies {
     implementation project(':components:icons')
     implementation project(':components:chartview')
 
+    implementation project(':subscriptions-kit')
+    implementation project(':subscriptions-google-play')
+
     // Integration with activities
     implementation 'androidx.activity:activity-compose:1.9.0'
     // Compose Material Design
